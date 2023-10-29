@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">    
+    <a class="navbar-brand ms-sm-2 ps-2">LOREM IPSUM</a>
+
+      <button class="navbar-toggler hidden-sm-up float-xs-left" type="button" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-controls="barraNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="barraNavegacion">
+      <ul class="menu navbar-nav w-100">
+
+        <li class="d-lg-none me-sm-4">
+          <form class="form-inline nav-item">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">            
+          </form>
+        </li>
+
+        <li class="nav-item">            
+          <a class="nav-link active" role="button">Dolor</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" role="button">Sit</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" role="button">Amet</a>
+        </li>
+
+        <li class="dropdown">
+          <a id="dropdownMenuButton" class="nav-link d-lg-none" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Opciones
+          </a>
+        </li> 
+        
+        <li class="nav-item ms-auto d-none d-lg-block">
+          <form class="form-inline nav-item">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">         
+          </form> 
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+    <h1 class="d-flex text-center d-none d-lg-block mt-5">Lorem ipsum...</h1>
+
+    <div class="d-none d-lg-block">
+      <div id="textoCarrusel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner mb-5">
+          <div class="carousel-item active">
+            <p class="carousel-text text-center">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="carousel-item">
+            <p class="carousel-text text-center">Consectetur adipiscing elit.</p>
+          </div>
+          <div class="carousel-item">
+            <p class="carousel-text text-center">Asperiores, laudantium delectus</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container">
+      <div class="row mt-2">
+
+        <div class="container mt-3 d-lg-none" id="opcionesContainer" style="display: none;">
+          <div class="text-decoration-underline d-grid">
+            <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 1</button>
+            <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 2</button>
+            <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 3</button>
+            <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 4</button>
+          </div>
+        </div>
+
+        <div class="row" id="opcionesContainer">
+          <div id="opciones" class="col d-none d-lg-block mt-2">
+              <div class="text-decoration-underline d-grid">
+                  <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 1</button>
+                  <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 2</button>
+                  <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 3</button>
+                  <button class="btn btn-outline-secondary border text-start py-3 text-body">Opción 4</button>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-9 ">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, laudantium delectus nihil aperiam totam ab numquam officia culpa neque autem repudiandae esse eos beatae aspernatur odio eius reprehenderit tempore necessitatibus.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo quibusdam commodi deserunt impedit quis modi illum adipisci, voluptas ea? Inventore a temporibus nam, delectus nulla culpa nemo ipsa excepturi?</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quisquam dolorum ducimus iste vitae ab eveniet quibusdam esse porro perspiciatis distinctio illum eius ad molestiae provident? Deserunt accusantium nisi recusandae?</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, deleniti architecto explicabo eum ipsa, tempora ut inventore, impedit illo minima nemo ex autem hic possimus itaque rem voluptatum! Accusantium, similique!</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dicta laudantium nam dolores corporis, velit error iure molestiae! Magnam repellendus alias placeat voluptate adipisci est ducimus commodi sequi consectetur iure?</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere nam doloremque adipisci sequi ducimus? Assumenda libero voluptatum dolore dolorum, odio corrupti in, asperiores quos, ducimus at omnis. Velit, voluptatibus?</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, laudantium delectus nihil aperiam totam ab numquam officia culpa neque autem repudiandae esse eos beatae aspernatur odio eius reprehenderit tempore necessitatibus.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 bg-light mb-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, laudantium delectus nihil aperiam totam ab numquam officia culpa neque autem repudiandae esse eos beatae aspernatur odio eius reprehenderit tempore necessitatibus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>  
+
+    <script src="javascript.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+
+
+            
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+
+
